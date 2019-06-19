@@ -12,7 +12,12 @@ var functions = {
     const values = {
       "remainingTime": remainingTime,
       "seconds": seconds
+    };
+    return values;
+  },
+  PushUp: function (input) {
+    while (input / 100 < 1) {
+      input = input * 10;
     }
-    return values
   }
 }
