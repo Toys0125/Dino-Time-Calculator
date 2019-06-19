@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $('.modal').modal();
+  $('select').formSelect();
 });
+
 var functions = {
   TimeCalculate: function (totalMins, maxGrowth, minGrowth, curGrowth, totaltimeLeft) {
     var remainingTime, seconds;
@@ -16,6 +18,7 @@ var functions = {
     };
     return values;
   },
+  
   PushUp: function (input) {
     while (input / 100 < 1) {
       input = input * 10;
