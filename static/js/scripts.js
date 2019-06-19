@@ -11,7 +11,8 @@ var functions = {
     seconds = Math.floor(Math.pow(10, 1) * seconds) / Math.pow(10, 1);
     const values = {
       "remainingTime": remainingTime,
-      "seconds": seconds
+      "seconds": seconds,
+      "totaltime": (remainingTime+totaltimeLeft)
     };
     return values;
   },
