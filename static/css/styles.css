@@ -8,3 +8,10 @@
     position: relative;
     right: auto;
 }
+
+#logo {
+    vertical-align: middle;
+    height: 90%;
+    margin-right: 25px;
+    margin-left: 10px;
+}
