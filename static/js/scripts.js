@@ -5,6 +5,7 @@ $(document).ready(function () {
 
 var functions = {
   TimeCalculate: function (totalMins, maxGrowth, minGrowth, curGrowth, totaltimeLeft) {
+    curGrowth = this.PushUp(curGrowth)
     var remainingTime, seconds;
     remainingTime = (totalMins / (maxGrowth - minGrowth) * (maxGrowth - curGrowth));
     seconds = remainingTime % 1;
@@ -23,5 +24,6 @@ var functions = {
     while (input / 100 < 1) {
       input = input * 10;
     }
+    return input
   }
 }
