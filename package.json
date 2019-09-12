@@ -1,0 +1,21 @@
+{
+  "name": "dino-time-calculator",
+  "version": "1.0.0",
+  "description": "My rad Nuxt.js project",
+  "author": "Toys0125",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}

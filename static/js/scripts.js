@@ -25,5 +25,10 @@ var functions = {
       input = input * 10;
     }
     return input
-  }
+  },
+  
 }
+
+Vue.component('dino-card',{
+  
+})
