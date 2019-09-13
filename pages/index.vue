@@ -8,9 +8,9 @@
 export default {
     data() {
         return{
-            dinoData=[],
-            dinoCarnList=["Allo","Cerato","Carno","Dilo","Giga","Sucho","Utah","TRex"],
-            dinoHerbList=["Tricera","Galli","Diablo","Maia","Pachy","Para","Dryo"],
+            dinoData:[],
+            dinoCarnList:["Allo","Cerato","Carno","Dilo","Giga","Sucho","Utah","TRex"],
+            dinoHerbList:["Tricera","Galli","Diablo","Maia","Pachy","Para","Dryo"],
 
         }
     },
