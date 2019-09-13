@@ -1,7 +1,7 @@
 <template>
   <v-app dark>
     <v-app-bar :clipped-left="clipped" fixed app>
-      <img src="@/static/img/Dino-Clock.svg" height="100%" style="padding-right:20px" />
+      <img src="~/static/img/Dino-Clock.svg" height="100%" style="padding-right:20px" />
       <v-toolbar-title v-text="title" />
       <v-spacer/>
       <v-btn @click="emitReset()">Reset</v-btn>
@@ -30,8 +30,8 @@ export default {
       title: 'Dino Time Calculator'
     }
   },
-  methods(){
-    function emitReset(){
+  methods:{
+    emitReset(){
       this.$nuxt.emit('ResetSignal')
     }
   }
