@@ -1,0 +1,106 @@
+{
+    "herbs":[
+        {
+            "name": "Tricera",
+            "stageNum":4,
+            "egg": 30,
+            "eggGrowth": 1000,
+            "eggStart":0,
+            "juvie":60,
+            "juvieGrowth": 1000,
+            "juvieStart":800,
+            "subAdult": 200,
+            "subAdultGrowth":1000,
+            "subAdultStart":800,
+            "adult":100,
+            "adultGrowth":1000,
+            "audltStart":800,
+            "total":390
+            
+        },
+        {
+            "name": "Galli",
+            "stageNum":3,
+            "egg": 15,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":40,
+            "juvieGrowth": 600,
+            "juvieStart":200,
+            "adult":50,
+            "adultGrowth":1000,
+            "audltStart":600,
+            "total":105
+        },
+        {
+            "name": "Diablo",
+            "stageNum":3,
+            "egg": 25,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":80,
+            "juvieGrowth": 6000,
+            "juvieStart":400,
+            "adult":100,
+            "adultGrowth":1000,
+            "audltStart":700,
+            "total":205
+        },
+        {
+            "name":"Maia",
+            "stageNum":3,
+            "egg": 20,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":50,
+            "juvieGrowth": 650,
+            "juvieStart":300,
+            "adult":60,
+            "adultGrowth":1000,
+            "audltStart":700,
+            "total":130
+        },
+        {
+            "name":"Pachy",
+            "stageNum":3,
+            "egg": 20,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":70,
+            "juvieGrowth": 700,
+            "juvieStart":500,
+            "adult":60,
+            "adultGrowth":1000,
+            "audltStart":800,
+            "total":150
+        },
+        {
+            "name":"Para",
+            "stageNum":3,
+            "egg": 25,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":60,
+            "juvieGrowth": 1000,
+            "juvieStart":600,
+            "adult":120,
+            "adultGrowth":1000,
+            "audltStart":700,
+            "total":205
+        },
+        {
+            "name":"Dryo",
+            "stageNum":3,
+            "egg": 10,
+            "eggGrowth": 400,
+            "eggStart":200,
+            "juvie":15,
+            "juvieGrowth": 700,
+            "juvieStart":400,
+            "adult":15,
+            "adultGrowth":1000,
+            "audltStart":600,
+            "total":40
+        }
+    ]
+}
