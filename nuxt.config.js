@@ -26,11 +26,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['material-design-icons/iconfont/material-icons.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/index.js'],
   /*
    ** Nuxt.js dev-modules
    */
